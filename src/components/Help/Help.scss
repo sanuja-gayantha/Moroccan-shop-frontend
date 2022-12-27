@@ -1,0 +1,101 @@
+.help{
+    margin: 50px 0px;
+    // border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    // background-color: aliceblue;
+
+    .top{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 25px;
+        
+
+        h1{
+            // flex: 2;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            border-bottom: 3px solid #555;
+        }
+        p{
+            // flex: 3;
+            color: #555;
+            
+        }
+        .styles_wave__HM_CU {
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            // animation-name: styles_wave__HM_CU;
+            display: inline-block;
+            transform-origin: 70% 70%;
+            font-size: 3rem;
+            margin-left: 1rem;
+          }
+
+        //   @keyframes styles_wave__HM_CU{
+        //   0% {
+        //     transform: rotate(0deg);
+        //   }
+        //   10% {
+        //     transform: rotate(-10deg);
+        //   }
+        //   20% {
+        //     transform: rotate(12deg);
+        //   }
+        //   30% {
+        //     transform: rotate(-10deg);
+        //   }
+        //   40% {
+        //     transform: rotate(9deg);
+        //   }
+        //   50% {
+        //     transform: rotate(0deg);
+        //   }
+        //   100% {
+        //     transform: rotate(0deg);
+        //   }
+        // }
+    }
+
+    .bottom{
+        display: flex;
+        gap:20px;
+        max-width: 800px;
+        // width
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        // align-items: center;
+        text-align: justify;
+        padding: 20px;
+        // background-color: #555;
+        line-height: 26px;
+        justify-content: center;
+
+        p{
+          flex: 1;
+          color: white;
+        //   border: 3px solid #555;
+          // padding: 20px;
+        //   margin: 0;
+            color: #555;
+          border-radius: 1rem;
+          line-height: 26px;
+    
+          
+      }
+      p:first-child::first-letter {
+        color: hotpink;
+        padding: 0 .3rem;
+        margin: 0 .3rem 0 0;
+        border: 2px solid;
+        border-radius: 8px;
+        font-family: "IBM Plex Mono", monospace;
+      }
+      
+    }
+}
+
